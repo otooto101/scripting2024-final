@@ -1,0 +1,19 @@
+.heading-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+.heading-text {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.heading-image img {
+    max-width: 100%;
+    width: 800px;
+    height: auto;
+    border-radius: 8px;
+}

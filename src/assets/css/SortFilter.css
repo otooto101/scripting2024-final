@@ -1,0 +1,61 @@
+
+/* Container */
+.sort-filter {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Sort and Filter Sections */
+.sort,
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+/* Labels */
+.sort label,
+.filter label {
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+/* Select Box */
+.sort select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Search Input */
+.filter input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Search Input Focus */
+.filter input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Button */
+.sort-filter button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sort-filter button:hover {
+    background-color: #0056b3;
+}
