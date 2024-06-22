@@ -2,7 +2,6 @@
 import React from "react";
 import Card from "./card";
 import "../assets/css/ProductCatalog.css";
-import { PhotoSizeSelectActualSharp } from "@material-ui/icons";
 
 function ProductCatalog({ products }) {
   return (
