@@ -1,28 +1,70 @@
+/* src/assets/css/Card.css */
+
 .card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-    width: 350px;
-    max-width: 100%;
-    margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 350px;
+  max-width: 100%;
+  margin: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .card-image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .card-info {
-    padding: 1rem;
-    text-align: center;
+  padding: 1rem;
+  text-align: center;
 }
 
 .card-info h3 {
-    margin: 0;
-    font-size: 1.2rem;
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 .card-info p {
-    margin: 0.5rem 0 0;
-    color: #555;
+  margin: 0.5rem 0 0;
+  color: #555;
+}
+
+.add-to-cart-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  width: auto;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+
+.add-to-cart-button.added {
+  background-color: #28a745; /* Green color indicating added */
+}
+
+.add-to-cart-button.added:hover {
+  background-color: #218838; /* Darker shade of green */
+}
+
+.add-to-cart-button i {
+  margin-left: 5px;
+}
+
+.added i {
+  margin-left: 0; /* Adjust icon position for added state */
 }
